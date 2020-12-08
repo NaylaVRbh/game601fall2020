@@ -38,7 +38,7 @@ The description of Temple Graveyard is "Welcome, pious traveller. We praise you 
 
 Date Fields is west of Vineyard. Hot Desert is north of Date Fields. The description of Hot Desert is "The land here seems empty and dry."
 
-Infertile Land is west of Hot Desert. Wasteland is north of Hot Desert.
+Infertile Land is west of Hot Desert. Wasteland is north of Hot Desert. The description of Infertile Land is "The land here seems empty and dry."
 
 Sahara is east of Hot Desert. The description of Sahara is "The land here seems empty and dry."
 
@@ -50,14 +50,30 @@ Palm Groves is north of Barren Land. The description of Palm Groves is "You come
 
 Western Seaside is west of Barren Land. The description of Western Seaside is "You approach the western seaside and clearly hear the enchanting voice growing closer. It has been the voice of the island preistess all along. She pauses her chants and smiles at you.
 
-'You have come to the right place, child. I have been praying for you and your father, singing to lord Enki for your safe journey to our island. Take this Dalilu, may it serve you well and please the Gods."
+'You have come to the right place, child. I have been praying for you and your father, singing to lord Enki for your safe journey to our island. This is the land where the sun rises, your father will rest well here. Take this Dalilu, may it serve you and your father well and please the Gods."
 
-Wasteland is east of Barren Land. The description of Wasteland is "The land here seems empty and dry. However, the sounds of running springwater fill the air."
+Wasteland is east of Barren Land. The description of Wasteland is "The land here seems empty and dry. However, the sounds of running springwater fill the air. A villager sees your tired body and quips:
+'He, Enki, cleaned and purified the land Dilmun,
+Placed the goddess Ninsikilla in charge of it.
+Drink from her fresh water that flows alongside and away from the saltwater.'"
 
-Spring is north of Wasteland. Arid Land is east of Wasteland. The description of Spring is "You have finally found the sacred spring. It is said to be the purest water in the region, and the best for holy rituals and cleansing. You have never seen such clean and pure water before. The tales of your father come to mind. You feel content that he will be bathed here before his journey to the afterlife."
+Spring is north of Wasteland. Arid Land is east of Wasteland. The description of Spring is "You have finally found the sacred spring. It is said to be the purest water in the region, and the best for holy rituals and cleansing. You have never seen such clean and pure water before. The tales of your father come to mind. You feel content that he will be bathed here before his journey to the afterlife. You spot a few holy men in the distance. They are too far away to speak to, but you hear them chant:
+
+'Utu stationed in heaven,
+Brought Ninsikilla sweet water from the earth,
+from the water sources of the earth,
+Brought up the water into her large reservoirs,
+Made her city drink from them the water of abundance,
+Made Dilmun drink from them the water of abundance,
+Her wells of bitter water became wells of sweet water.'"
 
 Palm Trees is east of Spring. Arid Land is south of Palm Trees. The description of Palm Trees is "You come across a beautiful green space, a huge contrast to the dry and infertile desert. You hear the sound of a stream. You could be close to water."
-Eastern Seaside is east of Arid Land. Sahara is south of Arid Land. Vineyard is south of Sahara.
+
+Eastern Seaside is east of Arid Land. The description of Eastern Seaside is "The coasts seem to be teeming with the most beautiful colors, unlike anything you've seen on the mainland back home. You spot a small inscription etched on the side of a slate. It reads:
+
+ 'For Dilmun, the land of my lady's heart, I will create long waterways, rivers and canals, whereby water will flow to quench the thirst of all beings and bring abundance to all that lives.'"
+
+Sahara is south of Arid Land. Vineyard is south of Sahara. The description of Arid Land is "The land here seems empty and dry."
 
 The player carries father body. The description of father body is "Father seems peaceful, ready to transition into his next life."
 
