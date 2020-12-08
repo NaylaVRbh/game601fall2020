@@ -4,7 +4,7 @@ Release along with the "Quixe" interpreter.
 Port is a room. The description of Port is "You arrive safely to the port, and unto the island that your father spoke fondly of in the past. It is the closest thing on Earth to the garden of heaven, and you are fulfilling the dying wish of your father to be buried here. You carry your father's body, which is almost ready for burial. You must first follow the necessary steps in order to ensure his successful transtition to the afterlife.
 A Muhru to please the Gods.
 A Dalilu to express your gratitude.
-And finally, seek the purest spring water in the region, a miracle of the dry desert. Take the fresh springwater with you, and you must apply the white burial garment to your father's body."
+And finally, seek the purest spring water in the region, a miracle of the dry desert. Take the fresh springwater with you, and you must apply the white burial garment to yourself in order to enter the Temple Graveyard."
 
 Southern Beach is east of Port. The description of Southern Beach is "Calm waves slowly crash on the prestine shore. The colors of the water are unlike any you've seen before. Your Father was right, everything about this holy land is almost heaven-like."
 

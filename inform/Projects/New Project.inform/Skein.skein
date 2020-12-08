@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-72"/>
+  <activeNode nodeId="node-75"/>
   <item nodeId="node-1">
     <command xml:space="preserve">New Project</command>
     <result xml:space="preserve">Welcome&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201208 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Port&#x000A;You arrive safely to the port, and unto the island that your father spoke fondly of in the past. It is the closest thing on Earth to the garden of heaven, and you are fulfilling the dying wish of your father to be buried here. You carry your father's body, which is almost ready for burial. You must first follow the necessary steps in order to ensure his successful transtition to the afterlife. A Muhru to please the Gods. A Dalilu to express your gratitude. And finally, seek the purest spring water in the region, a miracle of the dry desert. Take the fresh springwater with you, and you must apply the white burial garment to your father's body.&#x000A;&#x000A;&gt;</result>
@@ -9,7 +9,8 @@
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
-      <child nodeId="node-55"/>
+      <child nodeId="node-60"/>
+      <child nodeId="node-73"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -22,7 +23,7 @@
       <child nodeId="node-17"/>
       <child nodeId="node-19"/>
       <child nodeId="node-32"/>
-      <child nodeId="node-68"/>
+      <child nodeId="node-55"/>
     </children>
   </item>
   <item nodeId="node-3">
@@ -479,58 +480,19 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-68">
+  <item nodeId="node-55">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">Village Homes&#x000A;You approach the main village of the island. The homes are built adjacent to one another, and their lack of doors indicate the closeness of the population: everyone considers each other family. The very first house on your right is the home of the preist. It would be rude not to say hello. Perhaps he can help you find a Dalilu for prayer at the burial.&#x000A;&#x000A;"Hello my son, I know that which you seek. The Gods whispered to me your father's wishes, he will find his peace here. Seek the preistess of the Western Seaside, she will offer you the most sacred of Dalilu to chant and please the Gods. May the Gods be with you."&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-69"/>
-      <child nodeId="node-72"/>
-    </children>
-  </item>
-  <item nodeId="node-69">
-    <command xml:space="preserve">talk</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-70"/>
-    </children>
-  </item>
-  <item nodeId="node-70">
-    <command xml:space="preserve">talk to Preist</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-71"/>
-    </children>
-  </item>
-  <item nodeId="node-71">
-    <command xml:space="preserve">say hello</command>
-    <result xml:space="preserve">(to Preist)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-72">
-    <command xml:space="preserve">say hello</command>
-    <result xml:space="preserve">(to Preist)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-55">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Southern Seaside&#x000A;A great place to rest your head and reflect. The faint sounds of chanting can be heard. The Temple must be nearby.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
       <child nodeId="node-56"/>
+      <child nodeId="node-59"/>
     </children>
   </item>
   <item nodeId="node-56">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -538,8 +500,8 @@
     </children>
   </item>
   <item nodeId="node-57">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">talk to Preist</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -547,26 +509,20 @@
     </children>
   </item>
   <item nodeId="node-58">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Port&#x000A;You arrive safely to the port, and unto the island that your father spoke fondly of in the past. It is the closest thing on Earth to the garden of heaven, and you are fulfilling the dying wish of your father to be buried here. You carry your father's body, which is almost ready for burial. You must first follow the necessary steps in order to ensure his successful transtition to the afterlife. A Muhru to please the Gods. A Dalilu to express your gratitude. And finally, seek the purest spring water in the region, a miricle of the dry desert. Use the Spring's freshwater to wash and clothe your father's body with the sacred white burial cloth.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to Preist)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-59"/>
-    </children>
   </item>
   <item nodeId="node-59">
-    <command xml:space="preserve">go north</command>
-    <result xml:space="preserve">Market&#x000A;Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed.&#x000A;&#x000A;You can see a Muhru here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">say hello</command>
+    <result xml:space="preserve">(to Preist)&#x000A;There is no reply.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-60"/>
-    </children>
   </item>
   <item nodeId="node-60">
-    <command xml:space="preserve">take Muhru</command>
-    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Southern Seaside&#x000A;A great place to rest your head and reflect. The faint sounds of chanting can be heard. The Temple must be nearby.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -574,8 +530,8 @@
     </children>
   </item>
   <item nodeId="node-61">
-    <command xml:space="preserve">eat Muhru</command>
-    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -583,8 +539,8 @@
     </children>
   </item>
   <item nodeId="node-62">
-    <command xml:space="preserve">use Muhru</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -593,7 +549,7 @@
   </item>
   <item nodeId="node-63">
     <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">Temple&#x000A;You enter into the area of the Temple. The smell of burnt herbs and the sounds of chants fill the air. You father mentioned that the best of peoeple always prayed here, and were always given what they have asked. It is no wonder he wanted to be buried close to such a holy place.&#x000A;&#x000A;You can see Temple Graveyard Door here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Port&#x000A;You arrive safely to the port, and unto the island that your father spoke fondly of in the past. It is the closest thing on Earth to the garden of heaven, and you are fulfilling the dying wish of your father to be buried here. You carry your father's body, which is almost ready for burial. You must first follow the necessary steps in order to ensure his successful transtition to the afterlife. A Muhru to please the Gods. A Dalilu to express your gratitude. And finally, seek the purest spring water in the region, a miricle of the dry desert. Use the Spring's freshwater to wash and clothe your father's body with the sacred white burial cloth.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -601,8 +557,8 @@
     </children>
   </item>
   <item nodeId="node-64">
-    <command xml:space="preserve">open Temple Graveyard Door</command>
-    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Market&#x000A;Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed.&#x000A;&#x000A;You can see a Muhru here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -610,8 +566,8 @@
     </children>
   </item>
   <item nodeId="node-65">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Market&#x000A;Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">take Muhru</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -619,8 +575,8 @@
     </children>
   </item>
   <item nodeId="node-66">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">Village Homes&#x000A;You approach the main village of the island. The closeness of the houses and their lack of doors indicate the closeness of the population: everyone considers each other family. The very first house on your right is the home of the preist. He keeps an open chest of dalilu for those who wish to offer special prayers at the Temple.&#x000A;&#x000A;You can see a Dalilu here.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">eat Muhru</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -628,8 +584,77 @@
     </children>
   </item>
   <item nodeId="node-67">
+    <command xml:space="preserve">use Muhru</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Temple&#x000A;You enter into the area of the Temple. The smell of burnt herbs and the sounds of chants fill the air. You father mentioned that the best of peoeple always prayed here, and were always given what they have asked. It is no wonder he wanted to be buried close to such a holy place.&#x000A;&#x000A;You can see Temple Graveyard Door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">open Temple Graveyard Door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Market&#x000A;Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Village Homes&#x000A;You approach the main village of the island. The closeness of the houses and their lack of doors indicate the closeness of the population: everyone considers each other family. The very first house on your right is the home of the preist. He keeps an open chest of dalilu for those who wish to offer special prayers at the Temple.&#x000A;&#x000A;You can see a Dalilu here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
     <command xml:space="preserve">take dalilu</command>
     <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  father body&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Port&#x000A;You arrive safely to the port, and unto the island that your father spoke fondly of in the past. It is the closest thing on Earth to the garden of heaven, and you are fulfilling the dying wish of your father to be buried here. You carry your father's body, which is almost ready for burial. You must first follow the necessary steps in order to ensure his successful transtition to the afterlife. A Muhru to please the Gods. A Dalilu to express your gratitude. And finally, seek the purest spring water in the region, a miracle of the dry desert. Take the fresh springwater with you, and you must apply the white burial garment to your father's body.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Market&#x000A;Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed.&#x000A;&#x000A;You can see a Muhru here.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
