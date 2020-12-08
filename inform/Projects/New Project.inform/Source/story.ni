@@ -8,7 +8,12 @@ And finally, seek the purest spring water in the region, a miracle of the dry de
 
 Southern Beach is east of Port. The description of Southern Beach is "Calm waves slowly crash on the prestine shore. The colors of the water are unlike any you've seen before. Your Father was right, everything about this holy land is almost heaven-like."
 
-Southern Seaside is west of Port. The description of Southern Seaside is "A great place to rest your head and reflect. The faint sounds of chanting can be heard. The Temple must be nearby."
+Southern Seaside is west of Port. The description of Southern Seaside is "A great place to rest your head and reflect. The faint sounds of chanting can be heard:
+
+'The Land Dilmun is holy, The Land Dilmun is Pure, The Land Dilmun is clean.
+Holy Sumer, give to us to share.'
+
+The Temple must be nearby."
 
 Market is north of Port. The description of Market is "Busy marketplace, the heart of the island. The small alleyways are filled with families and their children. A vendor close to the temple path gives free muhru (offerings) to those who wish to bury their dead. A convienient gift, may she be blessed."
 
@@ -33,7 +38,6 @@ The matching key of Temple Graveyard Door is White Burial Garment.
 Temple Graveyard Door is east of Temple and west of Temple Graveyard. 
 
 The description of Temple Graveyard is "Welcome, pious traveller. We praise you for your devotion to your father. This is the most peaceful place on the island, and the deceased buried here are in the best divine hands within these holy grounds. Come, let us pray for your father's last moments in this world before his peaceful rest."
-
 
 
 Date Fields is west of Vineyard. Hot Desert is north of Date Fields. The description of Hot Desert is "The land here seems empty and dry."
